@@ -57,3 +57,24 @@
 
 3. PullRequestが作れたら、Discordの方にPullRequestのURLを添付して送る。
 
+### PullRequestがマージされてからやること
+1. 動作確認できたら、マージしてDiscordで知らせるので、マージされた旨が届いたか確認する。
+
+2. 確認したら、`git checkout main`をターミナル(Mac)またはコマンドプロンプト(windows)に打って、mainブランチに戻る。
+
+3. `git fetch`をターミナル(Mac)またはコマンドプロンプト(windows)に打って、以下の画像のようになるか確認する。
+
+![git_pull1](https://github.com/yoskoshi/Escape_Game/assets/110778997/af6f8279-e63c-4bd2-b456-8f9f75527266)
+
+4. `git pull origin main`をターミナル(Mac)またはコマンドプロンプト(windows)に打って、以下の画像のようになるか確認する。
+![git_pull2](https://github.com/yoskoshi/Escape_Game/assets/110778997/c12fe2f5-1c81-49a5-879e-931ac624d389)
+
+5. 今作業しているブランチがある場合は`git checkout ブランチ名`をターミナル(Mac)またはコマンドプロンプト(windows)に打つ。
+
+6. `git merge origin/main`をターミナル(Mac)またはコマンドプロンプト(windows)に打って、以下の画像のようになるか確認する。
+
+![git_pull3](https://github.com/yoskoshi/Escape_Game/assets/110778997/574b176a-4543-4a9b-9d36-62ce886c04a8)
+
+7. iキー -> escキー -> 「:wq」を順に行いEnterを押して、以下の画像のようになっているか確認する。ここまでできたら今行っているブランチを最新にすることができ、Githubのエラーが起きることがなくなる。
+
+![git_pull4](https://github.com/yoskoshi/Escape_Game/assets/110778997/d9f63be0-c5a2-4cf7-bb8e-532d98f59b91)
