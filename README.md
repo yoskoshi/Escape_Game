@@ -45,3 +45,15 @@
 8. 確認できたら、`git push origin 作ったブランチの名前`をターミナル(Mac)またはコマンドプロンプト(windows)に打って、以下の画像のようになったか確認する。
 
 ![git_push5](https://github.com/yoskoshi/Escape_Game/assets/110778997/bbe83d3f-69ef-4a5c-8fc5-6a3ac7a572d3)
+
+### PullRequestを出す方法
+1. githubにpushしたら、githubに戻って以下の画像のように緑色のボタンを押す。
+
+![git_pull_request1](https://github.com/yoskoshi/Escape_Game/assets/110778997/4e48266c-06b4-47a3-97fd-4b21d7ad204a)
+
+2. 以下の画像のようにタイトルには作った機能を書き、その下の本文には実装した内容や実際に動作している動画などを載せて、Create Pull Requestボタンを押す。
+
+![git_pull_request2](https://github.com/yoskoshi/Escape_Game/assets/110778997/516db80b-2b0e-42ec-aa47-9abcb2fd7c31)
+
+3. PullRequestが作れたら、Discordの方にPullRequestのURLを添付して送る。
+
